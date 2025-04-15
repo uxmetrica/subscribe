@@ -1,0 +1,70 @@
+@media only screen and (max-width : 1024px) {
+
+}
+/* Smartphones */
+@media only screen and (max-width : 768px) {
+	header{
+		width: 90%;
+	}
+	.navigation{
+		display: none;
+	}
+	section{
+		padding: 70px 0;
+	}
+	.intro{
+		min-height: auto;
+		padding: 140px 20px 0 20px;
+	}
+	.intro-card-header{
+		margin-top: 20px;
+	}
+	.intro-card-body{
+		font-size: .85em;
+	}
+	.folio-container,
+	.larger-container{
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	.case-studies .folio-container.f-row{
+		flex-direction: column;
+	}
+	.good-read.f-row{
+		flex-direction: column;
+	}
+	.good-read>div{
+		margin-bottom: 20px;
+	}
+	.good-read .folio-btn{
+		width: 100%;
+		text-align: center;
+	}
+	.contact-title{
+		font-size: 2.9em;
+	}
+	
+}
+/* Smartphones */
+@media only screen and (max-width : 480px) {
+	
+
+	/*********
+	*** INTRO
+	*********/
+	.intro{
+	}
+	.intro-container{
+		flex-wrap: wrap-reverse;
+	}
+	.intro-container img{
+		width: 100%;
+	}
+	.intro-container h1{
+		width: 100%;
+		font-size: 3em;
+		margin-bottom: 40px;
+	}
+
+}
